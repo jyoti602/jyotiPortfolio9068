@@ -1,84 +1,70 @@
-# Portfolio Website
+# Getting Started with Create React App
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and TailwindCSS.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- 🎨 Modern, clean design with smooth animations
-- 📱 Fully responsive layout
-- ⚡ Built with Next.js 14 for optimal performance
-- 🎯 TypeScript for type safety
-- 🌙 Beautiful gradient effects and hover states
-- 📧 Contact section with multiple contact methods
-- 💼 Project showcase with tech stacks
-- 🛠️ Skills section organized by categories
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+### `npm test`
 
-## Customization
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Personal Information
+### `npm run build`
 
-Update the following in `app/page.tsx`:
-- Your name in the hero section
-- Email address in contact section
-- Social media links
-- Project information
-- Skills and expertise
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Styling
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The website uses TailwindCSS with custom color schemes. Modify `tailwind.config.js` to customize:
-- Color palette
-- Fonts
-- Custom utilities
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Adding Projects
+### `npm run eject`
 
-Update the `projects` array in `app/page.tsx` with your own projects:
-```typescript
-{
-  title: 'Your Project',
-  description: 'Project description',
-  tech: ['React', 'Node.js', 'MongoDB'],
-  github: 'https://github.com/yourusername/project',
-  demo: 'https://project-demo.com',
-  image: '/path/to/image'
-}
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Build & Deploy
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Build the application for production:
-```bash
-npm run build
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Start the production server:
-```bash
-npm start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Technologies Used
+## Learn More
 
-- **Next.js 14** - React framework with App Router
-- **TypeScript** - Type-safe JavaScript
-- **TailwindCSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icons
-- **Framer Motion** - Animations (optional)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This project is open source and available under the [MIT License](LICENSE).
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
