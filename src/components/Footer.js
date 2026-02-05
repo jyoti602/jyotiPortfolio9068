@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer__inner">
-        <p>© 2024 Jyoti. All rights reserved.</p>
+        <p>© 2026 Jyoti . All rights reserved.</p>
         <div className="footer__links">
           <a className="footer__link" href="https://github.com/jyoti602" target="_blank" rel="noreferrer" aria-label="GitHub">
             <Github size={20} />
