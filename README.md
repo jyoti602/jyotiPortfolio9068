@@ -1,3 +1,13 @@
+# Portfolio Website
+
+This repository contains a personal portfolio web application built using Create React App. It showcases several projects, skills, and contact information.
+
+**Featured project:**
+
+- **Government Schemes Eligibility Checker** – an AI‑powered web application (frontend only) that helps Indian citizens identify government welfare schemes they qualify for. Features include intelligent form processing, a Google Gemini chatbot assistant with Hindi support, voice interaction, bilingual UI, and real-time eligibility matching.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

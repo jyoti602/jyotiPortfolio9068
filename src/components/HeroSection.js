@@ -24,7 +24,7 @@ export default function HeroSection({ onGetInTouch }) {
 
           <div>
             <div className="hero__imageWrap">
-              <img className="hero__image" src="/mypro.jpg" alt="Jyoti - Full Stack Developer" />
+              <img className="hero__image" src="image/mypro.png" alt="Jyoti - Full Stack Developer" />
             </div>
           </div>
         </div>

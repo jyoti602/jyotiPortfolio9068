@@ -40,6 +40,14 @@ export default function App() {
       github: 'https://github.com/jyoti602/ggp_almora_college_ui',
       demo: 'https://ggp-almora-college.onrender.com/',
     },
+    {
+      title: 'Government Schemes Eligibility Checker',
+      description:
+        'AI‑powered web app that helps Indian citizens determine eligibility for government welfare schemes using intelligent form processing and a Gemini chatbot assistant.',
+      tech: ['React', 'Vite', 'JavaScript', 'Google Gemini API', 'CSS'],
+      github: 'https://github.com/jyoti602/chatbot-ai-solution',
+      demo: 'https://yojana-mitra-ai-solution.netlify.app/',
+    },
   ]
 
   const skills = [

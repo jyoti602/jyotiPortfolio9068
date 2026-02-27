@@ -11,11 +11,17 @@ export default function ProjectsSection({ projects }) {
             <div key={project.title} className="card card--hover project">
               <div className="project__media">
                 {project.title === 'Hospital Management System' ? (
-                  <img className="project__img" src="/hms.png" alt="Hospital Management System" />
+                  <img className="project__img" src="image/hms.png" alt="Hospital Management System" />
                 ) : project.title === 'Republic Day Web Project' ? (
-                  <img className="project__img" src="/republic.png" alt="Republic Day Web Project" />
+                  <img className="project__img" src="image/republic.png" alt="Republic Day Web Project" />
                 ) : project.title === 'College Website' ? (
-                  <img className="project__img" src="/colleg.png" alt="College Website" />
+                  <img className="project__img" src="image/colleg.png" alt="College Website" />
+                ) : project.title === 'Government Schemes Eligibility Checker' ? (
+                  <img
+                    className="project__img"
+                    src="image/schemes.png"
+                    alt="Government Schemes Eligibility Checker"
+                  />
                 ) : (
                   <div className="project__img" />
                 )}
