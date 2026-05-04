@@ -22,6 +22,12 @@ export default function ProjectsSection({ projects }) {
                     src="image/schemes.png"
                     alt="Government Schemes Eligibility Checker"
                   />
+                      ) :project.title === 'Human Resource Management System' ? (
+                  <img
+                    className="project__img"
+                    src="image/hrms.png"
+                    alt="Human Resource Management System"
+                  />
                 ) : (
                   <div className="project__img" />
                 )}

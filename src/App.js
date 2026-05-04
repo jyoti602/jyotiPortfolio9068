@@ -48,6 +48,14 @@ export default function App() {
       github: 'https://github.com/jyoti602/chatbot-ai-solution',
       demo: 'https://yojana-mitra-ai-solution.netlify.app/',
     },
+    {
+      title: 'Human Resource Management System',
+      description:
+        'A comprehensive human resource management system built with React, JavaScript, and Python,FastAPI. Features employee management, attendance tracking, and payroll processing , Emailsending.',
+      tech: ['React', 'Vite', 'JavaScript', 'Python', 'FastAPI'],
+      github: 'https://github.com/jyoti602/human-resource-ui',
+      demo: 'https://hrms-ui.netlify.app/',
+    },
   ]
 
   const skills = [
