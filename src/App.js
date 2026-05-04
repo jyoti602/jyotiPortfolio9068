@@ -51,7 +51,7 @@ export default function App() {
     {
       title: 'Human Resource Management System',
       description:
-        'A comprehensive human resource management system built with React, JavaScript, and Python,FastAPI. Features employee management, attendance tracking, and payroll processing , Emailsending.',
+        'A comprehensive human resource management system built with React, JavaScript, and Python,FastAPI. Features Companey registration,  employee management, attendance tracking, and leave-management processing , Emailsending.',
       tech: ['React', 'Vite', 'JavaScript', 'Python', 'FastAPI'],
       github: 'https://github.com/jyoti602/human-resource-ui',
       demo: 'https://hrms-ui.netlify.app/',
